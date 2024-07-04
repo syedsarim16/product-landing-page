@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   background: rgb(18, 109, 121);
+    color: #333;
+    line-height: 1.6;
+    
+}
+
+#header {
+    background: rgb(15,30,45);
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+#header img {
+    height: 50px;
+    vertical-align: middle;
+}
+
+#nav-bar {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+#nav-bar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+#nav-bar ul li {
+    margin: 0 10px;
+}
+
+#nav-bar ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#product {
+    background: rgb(15, 45, 49);
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+    margin-top: 60px; 
+}
+
+#product h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+#product p {
+    font-size: 1.2em;
+    margin: 20px 0;
+}
+
+#product button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#features, #pricing, #contact {
+    padding: 40px 20px;
+    text-align: center;
+     background: rgb(18, 109, 121);
+     color:white;
+    
+}
+
+#features h2, #pricing h2, #contact h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    
+}
+
+.feature, .price-option {
+    background: rgb(14, 24, 53);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    color:white;
+}
+
+.feature h3, .price-option h3 {
+    font-size: 1.5em;
+}
+
+.price-option p {
+    font-size: 1.2em;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form label {
+    font-size: 1em;
+     color:black;
+     
+}
+
+form input, form textarea {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color:black;
+}
+
+form button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    color: #fff;
+    background: #ff6f61;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top:10px;
+    background: rgb(7, 44, 49);
+}
+
+@media (max-width: 600px) {
+    #nav-bar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    #nav-bar ul li {
+        margin: 5px 0;
+    }
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     background: rgb(18, 109, 121);
+}
+.contact{
+    font-family:sans-seif;
+    font-size:40px;
+    padding:10%;
+    margin-bottom:-100;
+}
